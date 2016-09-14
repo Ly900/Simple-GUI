@@ -1,6 +1,6 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
-import java.awt.BorderLayout;
 
 public class SimpleGui1 implements ActionListener {
   JButton button;
@@ -14,7 +14,7 @@ public class SimpleGui1 implements ActionListener {
   public void go() {
     count = 0;
     JFrame frame = new JFrame();
-    button = new JButton("click me " + count + " times.");
+    button = new JButton("Clicked me " + count + " times.");
 
     button.addActionListener(this);
 
@@ -27,7 +27,7 @@ public class SimpleGui1 implements ActionListener {
   public void actionPerformed(ActionEvent event) {
     count++;
     Integer.toString(count);
-    button.setText("clicked me " + count + " times.");
+    button.setText("Clicked me " + count + " times.");
   }
 
 }
