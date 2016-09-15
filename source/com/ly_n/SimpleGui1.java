@@ -1,4 +1,4 @@
-package com.ly_n.SimpleGui1;
+package com.ly_n.simplegui1;
 
 import javax.swing.*;
 import java.awt.*;
