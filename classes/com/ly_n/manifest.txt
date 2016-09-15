@@ -1,1 +1,1 @@
-Main-Class: SimpleGui1
+Main-Class: com.ly_n.SimpleGui1
